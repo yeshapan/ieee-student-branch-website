@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  background: #ffffff;
+  color: #111111;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+a {
+  color: #00629B;
+  text-decoration: underline;
+}
+a:hover {
+  color: #004F7D;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  line-height: 1.25;
+  color: #00629B;
+}
+
+/* ── Layout ── */
+.page-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ── Top bar ── */
+.top-bar {
+  background: #00629B;
+  color: #fff;
+  padding: 0.35rem 0;
+  font-size: 0.78rem;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+/* ── Navbar ── */
+.navbar {
+  background: #fff;
+  border-bottom: 2px solid #00629B;
+  padding: 0.75rem 0;
+}
+.navbar-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.nav-brand {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+.nav-brand-top {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #00629B;
+  text-decoration: none;
+}
+.nav-brand-sub {
+  font-size: 0.78rem;
+  color: #555;
+}
+.nav-links {
+  display: flex;
+  gap: 0;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.nav-links a {
+  padding: 0.35rem 0.85rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+  border-right: 1px solid #ddd;
+}
+.nav-links li:first-child a { border-left: 1px solid #ddd; }
+.nav-links a:hover {
+  background: #f0f6ff;
+  color: #00629B;
+}
+
+/* ── Hero banner ── */
+.hero {
+  border-bottom: 2px solid #00629B;
+  text-align: center;
+  position: relative;
+}
+.hero-overlay {
+  background: rgba(0, 40, 70, 0.68);
+  padding: 3rem 0 2.5rem;
+}
+.hero h1 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.hero .subtitle {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.88);
+  margin-bottom: 1rem;
+}
+.hero .inau-badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.5);
+  color: #fff;
+  padding: 0.3rem 1.1rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  border-radius: 2px;
+  letter-spacing: 0.03em;
+}
+.hero .stat-item .val { color: #fff; }
+.hero .stat-item .lbl { color: rgba(255,255,255,0.75); }
+
+/* ── Section ── */
+.section {
+  padding: 2.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+.section:last-child {
+  border-bottom: none;
+}
+.section h2 {
+  font-size: 1.3rem;
+  color: #00629B;
+  border-left: 4px solid #00629B;
+  padding-left: 0.65rem;
+  margin-bottom: 1rem;
+}
+.section h3 {
+  font-size: 1rem;
+  color: #00629B;
+  margin-bottom: 0.35rem;
+}
+.section p {
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+.section p:last-child {
+  margin-bottom: 0;
+}
+
+/* ── Two-col layout ── */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+@media (max-width: 640px) {
+  .two-col { grid-template-columns: 1fr; }
+}
+
+/* ── Info box (for key facts) ── */
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  margin-top: 0.75rem;
+}
+.info-table td {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #ddd;
+}
+.info-table td:first-child {
+  font-weight: 600;
+  background: #f5f8fc;
+  color: #00629B;
+  white-space: nowrap;
+  width: 40%;
+}
+
+/* ── Stats row ── */
+.stats-row {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.stat-item { text-align: center; }
+.stat-item .val {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #00629B;
+}
+.stat-item .lbl {
+  font-size: 0.75rem;
+  color: #666;
+}
+
+/* ── Image placeholder ── */
+.img-placeholder {
+  width: 100%;
+  aspect-ratio: 4/3;
+  background: #f0f6ff;
+  border: 1px dashed #00629B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  font-size: 0.78rem;
+  text-align: center;
+  gap: 0.3rem;
+  padding: 1rem;
+}
+.img-placeholder svg { opacity: 0.35; }
+
+/* ── Logo placeholder ── */
+.logo-ph {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed #00629B;
+  color: #00629B;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  border-radius: 2px;
+  background: #f0f6ff;
+}
+
+/* ── Team grid ── */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.25rem;
+}
+.team-card {
+  border: 1px solid #ddd;
+  border-top: 3px solid #00629B;
+  padding: 1.75rem 1.5rem 1.5rem;
+  text-align: center;
+  background: #fafcff;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.team-card:hover {
+  border-color: #00629B;
+  box-shadow: 0 4px 14px rgba(0, 98, 155, 0.1);
+}
+.team-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  border: 2px solid #00629B;
+  overflow: hidden;
+  background: #e8f1fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #00629B;
+}
+.team-card .name {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #111;
+  margin-bottom: 0.25rem;
+}
+.team-card .role {
+  font-size: 0.8rem;
+  color: #00629B;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.65rem;
+}
+.team-card .bio {
+  font-size: 0.82rem;
+  color: #555;
+  line-height: 1.6;
+}
+.team-links {
+  margin-top: 0.85rem;
+  font-size: 0.78rem;
+  border-top: 1px solid #eee;
+  padding-top: 0.75rem;
+}
+.team-links a {
+  margin: 0 0.35rem;
+}
+
+/* ── Events ── */
+.event-card {
+  border: 1px solid #ddd;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  background: #fafcff;
+}
+.event-card.featured {
+  border-color: #00629B;
+  background: #EEF6FD;
+}
+.event-card h3 {
+  margin-bottom: 0.35rem;
+}
+.event-meta {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+.event-meta span { margin-right: 1rem; }
+
+/* ── Benefits list ── */
+.benefits-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+@media (max-width: 540px) {
+  .benefits-grid { grid-template-columns: 1fr; }
+}
+.benefit-item {
+  border-left: 3px solid #00629B;
+  padding: 0.5rem 0.75rem;
+  background: #f5f8fc;
+}
+.benefit-item strong {
+  display: block;
+  font-size: 0.88rem;
+  color: #00629B;
+  margin-bottom: 0.2rem;
+}
+.benefit-item span {
+  font-size: 0.8rem;
+  color: #444;
+}
+
+/* ── Button ── */
+.btn {
+  display: inline-block;
+  padding: 0.45rem 1.25rem;
+  background: #00629B;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover { background: #004F7D; color: #fff; }
+.btn-outline {
+  display: inline-block;
+  padding: 0.45rem 1.25rem;
+  background: #fff;
+  color: #00629B;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid #00629B;
+}
+.btn-outline:hover { background: #f0f6ff; }
+
+/* ── Footer ── */
+.footer {
+  background: #00629B;
+  color: #fff;
+  padding: 2rem 0 1rem;
+}
+.footer a { color: #a8d8f0; }
+.footer a:hover { color: #fff; }
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+.footer h3 {
+  color: #fff;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(255,255,255,0.25);
+  padding-bottom: 0.4rem;
+}
+.footer ul {
+  list-style: none;
+  font-size: 0.82rem;
+  line-height: 1.9;
+}
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding-top: 0.75rem;
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.7);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+/* ── Utility ── */
+.tag {
+  display: inline-block;
+  background: #e8f1fa;
+  color: #00629B;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.15rem 0.55rem;
+  margin: 0.2rem;
+  border: 1px solid #b0ceea;
+}
+
+/* ── Scroll fade-in animation ── */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-in-section {
+  animation: fadeInUp 0.55s ease both;
+  animation-timeline: view();
+  animation-range: entry 0% entry 30%;
+}

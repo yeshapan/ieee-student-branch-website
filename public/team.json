@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Harsh Teckchandani",
+    "role": "Branch Counsellor",
+    "bio": "Professor in the Department of Engineering at GSFC University. Mentor and guide for the IEEE Student Branch.",
+    "photoSrc": "",
+    "email": "harsh.teckchandani@gsfcuniversity.ac.in",
+    "linkedin": ""
+  },
+  {
+    "name": "Yesha Pandya",
+    "role": "Chairperson",
+    "bio": "Final-year student leading the branch with a focus on technical workshops and professional development for all members.",
+    "photoSrc": "/team/yesha_p.jpeg",
+    "email": "23bt04175@gsfcuniversity.ac.in",
+    "linkedin": ""
+  },
+  {
+    "name": "Dhruv Verma",
+    "role": "Vice Chairperson",
+    "bio": "Third-year engineering student focused on building an inclusive technical community through events and collaboration.",
+    "photoSrc": "",
+    "email": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Mann Prajapati",
+    "role": "Secretary",
+    "bio": "Handles all documentation, communications, and administrative coordination of the Student Branch.",
+    "photoSrc": "",
+    "email": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Ved Vyas",
+    "role": "Secretary",
+    "bio": "Handles all documentation, communications, and administrative coordination of the Student Branch.",
+    "photoSrc": "/team/ved_v.jpg",
+    "email": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Kushal Patel",
+    "role": "Treasurer",
+    "bio": "Manages financial affairs including budget planning, fund allocation, and financial record keeping.",
+    "photoSrc": "",
+    "email": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Dharvi Jangid",
+    "role": "Publicity Chair",
+    "bio": "Oversees the digital presence and technical infrastructure of the Student Branch.",
+    "photoSrc": "",
+    "email": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Yesha Parwani",
+    "role": "Joint - Publicity Chair",
+    "bio": "Oversees the digital presence and technical infrastructure of the Student Branch.",
+    "photoSrc": "/team/yesha_parwani.png",
+    "email": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Rudra Chauhan",
+    "role": "Member Development Chair",
+    "bio": "Organizes technical workshops, hackathons, and skill-building sessions for student members.",
+    "photoSrc": "/team/rudra_c.jpeg",
+    "email": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Esha Khan",
+    "role": "Joint - Member Development Chair",
+    "bio": "Organizes technical workshops, hackathons, and skill-building sessions for student members.",
+    "photoSrc": "",
+    "email": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Bhargav",
+    "role": "IEEE Member",
+    "bio": "Organizes technical workshops, hackathons, and skill-building sessions for student members.",
+    "photoSrc": "/team/bhargav.jpg",
+    "email": "",
+    "linkedin": ""
+  }
+]
