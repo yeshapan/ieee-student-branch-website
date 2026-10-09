@@ -19,7 +19,7 @@
     "name": "Dhruv Verma",
     "role": "Vice Chairperson",
     "bio": "Third-year engineering student focused on building an inclusive technical community through events and collaboration.",
-    "photoSrc": "",
+    "photoSrc": "/team/dhruv_v.png",
     "email": "",
     "linkedin": ""
   },
@@ -27,8 +27,8 @@
     "name": "Mann Prajapati",
     "role": "Secretary",
     "bio": "Handles all documentation, communications, and administrative coordination of the Student Branch.",
-    "photoSrc": "",
-    "email": "",
+    "photoSrc": "/team/mann_p.jpg",
+    "email": "23bt04133@gsfcuniversity.ac.in",
     "linkedin": ""
   },
   {
@@ -43,7 +43,7 @@
     "name": "Kushal Patel",
     "role": "Treasurer",
     "bio": "Manages financial affairs including budget planning, fund allocation, and financial record keeping.",
-    "photoSrc": "",
+    "photoSrc": "/team/kushal.png",
     "email": "",
     "linkedin": ""
   },
@@ -51,7 +51,7 @@
     "name": "Dharvi Jangid",
     "role": "Publicity Chair",
     "bio": "Oversees the digital presence and technical infrastructure of the Student Branch.",
-    "photoSrc": "",
+    "photoSrc": "/team/dharvi_j.png",
     "email": "",
     "linkedin": ""
   },
@@ -75,15 +75,23 @@
     "name": "Esha Khan",
     "role": "Joint - Member Development Chair",
     "bio": "Organizes technical workshops, hackathons, and skill-building sessions for student members.",
-    "photoSrc": "",
+    "photoSrc": "/team/esha_k.png",
     "email": "",
     "linkedin": ""
   },
   {
-    "name": "Bhargav",
+    "name": "Bhargav Umethiya",
     "role": "IEEE Member",
     "bio": "Organizes technical workshops, hackathons, and skill-building sessions for student members.",
     "photoSrc": "/team/bhargav.jpg",
+    "email": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Yaxita Jingar",
+    "role": "IEEE Member",
+    "bio": "Organizes technical workshops, hackathons, and skill-building sessions for student members.",
+    "photoSrc": "",
     "email": "",
     "linkedin": ""
   }

@@ -18,9 +18,9 @@ export default function Navbar() {
           <div style={{ display: "flex", alignItems: "center" }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/ieee-logo.png"
+              src="/ieeesb_logo.png"
               alt="IEEE Logo"
-              style={{ height: "36px", width: "auto" }}
+              style={{ height: "36px", width: "auto", scale: "5.5", position: "relative", top: "8px" }}
             />
           </div>
 

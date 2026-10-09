@@ -12,23 +12,13 @@ export default function Hero() {
       {/* Overlay for readability */}
       <div className="hero-overlay">
         <div className="page-container">
-          {/* IEEE Logo */}
-          <div style={{ marginBottom: "1rem", display: "flex", justifyContent: "center" }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/ieee-logo.png"
-              alt="IEEE Logo"
-              style={{ height: "60px", width: "auto", filter: "brightness(0) invert(1)" }}
-            />
-          </div>
-
           <h1>IEEE Student Branch — GSFC University</h1>
           <p className="subtitle">
             Advancing Technology for the Benefit of Humanity
           </p>
-          <span className="inau-badge">
-            Inauguration Ceremony — September 17, 2026
-          </span>
+          {/* <span className="inau-badge">
+            IEEE Day Celebration — October 6, 2026
+          </span> */}
 
           {/* Stats */}
           <div className="stats-row" style={{ justifyContent: "center", marginTop: "1.5rem" }}>
